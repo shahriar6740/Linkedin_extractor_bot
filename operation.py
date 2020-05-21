@@ -6,9 +6,11 @@ import json
 
 
 class Operation:
-
+    
+    #grab the wedriver
     driver = webdriver.Chrome(Paths.driver_path)
-
+    
+    #function for loging in to linkedin.
     def login(self, username, password):
 
         try:
@@ -119,12 +121,6 @@ class Operation:
 
         else:
             print('job page not found')
-            
-
-
-
-
-
 
 
     def import_profile_link_from_csv(self):
@@ -204,7 +200,7 @@ class Operation:
 
 
 
-        self.driver.close()
+        self.driver.close()  #close the web driver after completing tasks.
 
 
 
