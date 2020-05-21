@@ -1,7 +1,7 @@
 #do not change anything from this file except the driver path variable.
 
 class Paths:
-    driver_path = '/home/hasan-atl/Downloads/chromedriver_linux64/chromedriver'
+    driver_path = '/home/.../chromedriver_linux64/chromedriver'
     sign_in_page = 'https://www.linkedin.com/login?trk=guest_homepage-basic_nav-header-signin'
 
     username_css_selector = '#username'
