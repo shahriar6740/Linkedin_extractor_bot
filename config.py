@@ -1,8 +1,10 @@
+#define the driver path of your your own machine.
+driver_path = '/home/.../chromedriver'
 
-driver_path = '/home/hasan-atl/Downloads/chromedriver_linux64/chromedriver'
+#Add your user name and password for linkedin.
+username = 'user@domain.com'
+password = 'UserPassword'
 
-username = 'deeplaude@gmail.com'
-password = 'DeepLaudeAdmin1234'
-
+#enter the search criteria
 search_title = "Software Engineer"
 location = "hungary"
